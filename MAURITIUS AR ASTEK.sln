@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAURITIUS AR ASTEK", "Assembly-CSharp.csproj", "{26051E98-2F67-6789-9677-D340A4797296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAURITIUS AR ASTEK", "Assembly-CSharp-Editor.csproj", "{CD9BA903-AA29-362D-43E5-4B0FF4EEB07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26051E98-2F67-6789-9677-D340A4797296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26051E98-2F67-6789-9677-D340A4797296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26051E98-2F67-6789-9677-D340A4797296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26051E98-2F67-6789-9677-D340A4797296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9BA903-AA29-362D-43E5-4B0FF4EEB07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9BA903-AA29-362D-43E5-4B0FF4EEB07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9BA903-AA29-362D-43E5-4B0FF4EEB07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9BA903-AA29-362D-43E5-4B0FF4EEB07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
