@@ -22,6 +22,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region UNTIY_MONOBEHAVIOUR_METHODS
 
+    public GameObject ticket;
+
     protected virtual void Start()
     {
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -75,7 +77,16 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         // Enable rendering:
         foreach (var component in rendererComponents)
-            component.enabled = true;
+        {
+            if (component.name == "ticket")
+            {              
+                component.enabled = false;
+            }
+            else
+            {
+                component.enabled = true;
+            }
+        }
 
         // Enable colliders:
         foreach (var component in colliderComponents)
@@ -83,7 +94,16 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         // Enable canvas':
         foreach (var component in canvasComponents)
-            component.enabled = true;
+        {
+            if (component.name == "Canvas")
+            {
+                component.enabled = false;
+            }
+            else
+            {
+                component.enabled = true;
+            }
+        }
     }
 
 
@@ -104,6 +124,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+      
     }
 
     #endregion // PRIVATE_METHODS
